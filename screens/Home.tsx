@@ -1,6 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
 import { useLayoutEffect } from "react";
-import Widget from "react-native-widget";
 import { View, Text } from "react-native";
 
 export function HomeView() {
@@ -18,5 +17,3 @@ export function HomeView() {
     </View>
   );
 }
-
-Widget.create(HomeView, { widgetName: "HomeWidget" });
