@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "meu-ui",
+    "slug": "meu-ui",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.example.meu",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification",
+          "fetch",
+          "widget"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3c456cba-b713-45d5-b1ee-a4e73ecc1f8c"
+      }
+    }
+  }
+}
